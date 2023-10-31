@@ -1,0 +1,18 @@
+.alert{
+    z-index: 9999;
+}
+.form-parent{
+    z-index: 1000;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+.update-form{
+    background-color: rgba(75, 75, 75, 0.308);
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    z-index: 2222;
+    display: none;
+}
